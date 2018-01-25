@@ -35,7 +35,7 @@ $config['SALTY'] = 'THISSHOULDALSOBERRAANNsadfsadfsDDOOM';
   *  Algorithm used by this coin, sha256d or scrypt
   *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-algorithm
   **/
-$config['algorithm'] = 'lbry'; 
+$config['algorithm'] = 'zcoin'; 
 
 /**
   * Getbalance API Calls
@@ -51,9 +51,9 @@ $config['getbalancewithunconfirmed'] = false;
  **/
 $config['db']['host'] = 'localhost';
 $config['db']['user'] = 'root';
-$config['db']['pass'] = '123,';
+$config['db']['pass'] = 'GM159357.com';
 $config['db']['port'] = 3306;
-$config['db']['name'] = 'lbrycoinpool';
+$config['db']['name'] = 'zcoinpool';
 // Disabled by default and set in bootstrap if unset, but left in here so
 // people know it exists
 // $config['db']['shared']['accounts'] = $config['db']['name'];
