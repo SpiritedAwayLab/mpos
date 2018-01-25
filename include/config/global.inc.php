@@ -35,7 +35,7 @@ $config['SALTY'] = 'THISSHOULDALSOBERRAANNsadfsadfsDDOOM';
   *  Algorithm used by this coin, sha256d or scrypt
   *   https://github.com/MPOS/php-mpos/wiki/Config-Setup#wiki-algorithm
   **/
-$config['algorithm'] = 'zcoin'; 
+$config['algorithm'] = 'lyra2z'; 
 
 /**
   * Getbalance API Calls
